@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb On & Off</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .bulb{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            margin-top:15%;
+            
+            
+        }
+        .btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bulb">
+        <img id="bulb" src="bulb-off.jpg" alt="image" >
+    </div>
+    <br>
+   <div class="btn">
+    <button id="togglebtn">Turn on</button>
+   </div>
+    
+
+
+    <script>
+        let btn= document.getElementById('togglebtn')
+        let bulb= document.getElementById('bulb')
+        btn.addEventListener('click',toggleBulb)
+        function toggleBulb(e){
+            if(btn.textContent.includes("on"))
+            {
+                bulb.src="bulb-on.jpg"
+                btn.textContent="Turn off"
+            }
+            else
+            {
+                bulb.src="bulb-off.jpg"
+                btn.textContent="Turn on"
+            }
+        }
+
+    </script>
+</body>
+</html>

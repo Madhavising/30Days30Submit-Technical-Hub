@@ -1,0 +1,25 @@
+body{
+    margin:0px;
+    background-color: black;
+    text-align: center;
+}
+h3{
+  margin-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:white;
+}
+
+.box{
+    height: 100px;
+    width: 500px;
+    border:1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+   
+    
+}

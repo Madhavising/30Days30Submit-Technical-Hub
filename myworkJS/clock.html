@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+   <style>
+        #main{
+            background-color: #66ffff;
+            width: 35%;
+            margin: auto;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 64px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center; 
+            background-color: black; 
+            color: white;
+        }
+
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1 id="main"></h1>
+
+    </div>
+     
+</body>
+  
+<script>
+    
+setInterval(watch, 1000);
+function watch() {
+var date=new Date()
+var h=date.getHours();
+var m=date.getMinutes();
+var s=date.getSeconds();
+var period = "";
+
+
+if (h >= 12) {
+ period = "PM";
+ } else {
+ period = "AM";
+ }
+ if(h>12)
+    {
+        h=h-12;
+       
+    }
+
+
+if(h==0)
+{
+  h=12;
+ 
+}
+
+if(h<10)
+{
+    h="0"+h;
+}
+else
+{
+ h=h;
+}
+m=m<10?"0"+m : m;
+s=s<10?"0"+s : s;
+
+
+
+
+
+document.getElementById('main').innerHTML = h+" : "+m+" : "+s+" "+ period;
+}
+
+watch();
+
+
+</script>
+</html>
