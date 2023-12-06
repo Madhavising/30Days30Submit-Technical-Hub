@@ -1,7 +1,8 @@
 <img src="./banner.png">
 
-# 30Days30submits
+# 30Days30submits : https://myworkbymadhavisingh.netlify.app
 ### By Madhavi Singh
+
 
 
 ### I submitted 30 little to medium size projects. Sometimes I did a little website component or sometimes some javaScript app as a submit. I did it to boost my HTML, CSS & JS skills. 
