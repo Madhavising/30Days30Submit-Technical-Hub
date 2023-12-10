@@ -1,6 +1,6 @@
 <img src="./banner.png">
 
-# 30Days30submits : https://myworkbymadhavisingh.netlify.app
+# 30Days30submits : https://mywork-madhavisingh.netlify.app
 ### By Madhavi Singh
 
 
