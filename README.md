@@ -38,5 +38,5 @@
 | 26 [Zoom Effect]               |    https://zoomeffectbymadhavi.netlify.app        | 
 | 27 [To Do List]                |    https://todolistbymadhavi.netlify.app          | 
 | 28 [Temprature Convertor]      | https://temperature-convertorbymadhavi.netlify.app| 
-| 29 [Weather APP]               |    https://weatherbymadhavi.netlify.app           |
+| 29 [Weather APP]               |  https://weatherappbymadhavisingh.netlify.app     |
 | 30 [Amazon clone]              |    http://singhmadhavi-amazon-clone.netlify.app   | 
